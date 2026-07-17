@@ -1,0 +1,7 @@
+python-dotenv
+cl-sdk
+pytest
+requests
+jupyterlab
+ipywidgets
+google-genai

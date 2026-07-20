@@ -1,0 +1,7 @@
+test_case,description,expected_compatible,actual_compatible,passed,reason
+fully_compatible,"Same task, modality, temporal window, decision context, and observation window.",True,True,True,
+task_id_mismatch,Evidence records refer to different task identifiers.,False,False,True,
+modality_mismatch,Evidence records use different output modalities.,False,False,True,
+decision_context_mismatch,Evidence records refer to different decision contexts.,False,False,True,
+observation_window_mismatch,Evidence records belong to different observation windows.,False,False,True,
+timestamp_mismatch,Evidence timestamps exceed the configured compatibility window.,False,False,True,

@@ -1,0 +1,6 @@
+case,missing_fields,trust,decision,reason
+complete,,0.9200496683266889,accept,Trust score is high enough for local acceptance.
+missing_noise,noise,0.8200496683266888,forward_to_fog,Required reliability telemetry is incomplete (noise); the output is conservatively forwarded to the fog layer.
+missing_drift,drift,0.8200496683266888,forward_to_fog,Required reliability telemetry is incomplete (drift); the output is conservatively forwarded to the fog layer.
+missing_freshness,freshness,0.9200496683266889,forward_to_fog,Required reliability telemetry is incomplete (freshness); the output is conservatively forwarded to the fog layer.
+missing_noise_and_drift,"noise,drift",0.7200496683266888,forward_to_fog,"Required reliability telemetry is incomplete (noise, drift); the output is conservatively forwarded to the fog layer."

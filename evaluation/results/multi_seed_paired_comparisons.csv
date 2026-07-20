@@ -1,0 +1,9 @@
+experiment,proposed_method,baseline_method,metric,n_seeds,mean_difference,std_difference,ci95_lower,ci95_upper,ci_excludes_zero
+controlled_baseline,full_trust_score,confidence_only,false_acceptance_rate,20,-0.12619611481277332,0.004971683182534924,-0.12852290742501774,-0.12386932220052892,True
+controlled_baseline,full_trust_score,confidence_only,accepted_mae,20,-0.12871413616991031,0.006068412446265912,-0.13155420797851342,-0.12587406436130721,True
+random_stress,full_trust_score,confidence_only,false_acceptance_rate,20,-0.12472911010496196,0.0047918839064643995,-0.12697175503283312,-0.12248646517709082,True
+random_stress,full_trust_score,confidence_only,accepted_mae,20,-0.2270455386298688,0.018895109016006974,-0.2358886202285601,-0.21820245703117747,True
+fog_fusion,orthogonal_trust_uncertainty,simple_average,fusion_mae,20,-0.007421152594530774,0.0018167909433991305,-0.008271427157468281,-0.006570878031593267,True
+fog_fusion,orthogonal_trust_uncertainty,confidence_weighted,fusion_mae,20,-0.006552195135980693,0.001620031326505283,-0.007310384421926915,-0.005794005850034471,True
+fog_fusion,orthogonal_trust_uncertainty,uncertainty_weighted,fusion_mae,20,-0.0002800203163768861,0.00022381274630351412,-0.00038476670215918034,-0.0001752739305945918,True
+fog_fusion,orthogonal_trust_uncertainty,original_trust_uncertainty,fusion_mae,20,-0.000364972867002776,0.00010476799410097848,-0.0004140052340550806,-0.00031594049995047144,True
